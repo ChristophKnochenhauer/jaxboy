@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jaxboy"
+version = "0.1"
+description = 'A JAX-based GameBoy emulator'
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Christoph Knochenhauer", email = "christophknochenhauer@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+  "jax",
+  "jaxtyping",
+]
+
+[project.urls]
+Documentation = "https://github.com/ChristophKnochenhauer/jaxboy#readme"
+Issues = "https://github.com/ChristophKnochenhauer/mll4fi-jaxboy#readme/issues"
+Source = "https://github.com/ChristophKnochenhauer/jaxboy#readme"
